@@ -1,26 +1,43 @@
 import React from 'react'
 import styles from './Skills.module.css'
-import { FaSquareJs, FaReact, FaSass, FaGitAlt, FaNode } from 'react-icons/fa6'
+import { FaSquareJs, FaReact, FaHtml5, FaGitAlt, FaNode, FaCss3Alt } from 'react-icons/fa6'
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiNestjs,SiTypescript, SiAxios   } from "react-icons/si";
 
 function Skills() {
-  return (
+  return ( 
     <div className={styles.skills_con}>
-      <h3 className={styles.skills_title}>My skill Set</h3>
+      <h3 className={styles.skills_title} >My skill Set</h3>
       <ul className={styles.skills_list}>
-        <li>
-            <FaSquareJs />
+      <li>
+          <FaHtml5 />
         </li>
         <li>
-            <FaReact />
+          <FaCss3Alt />
         </li>
         <li>
-            <FaSass />
+          <FaSquareJs />
         </li>
         <li>
-            <FaGitAlt />
+          <SiTypescript />
         </li>
         <li>
-            <FaNode />
+          <FaReact />
+        </li>
+        <li>
+          <FaGitAlt />
+        </li>
+        <li>
+          <FaNode />
+        </li>
+        <li>
+          <RiTailwindCssFill />
+        </li>
+        <li>
+          <SiNestjs />
+        </li>
+        <li>
+          <SiAxios />
         </li>
       </ul>
     </div>
